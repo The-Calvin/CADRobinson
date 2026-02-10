@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Git & Source Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Source Control and Git: An Introduction</h1>
+
+    <div class="section">
+        <h2>What is Source Control?</h2>
+        <p>Source control (or version control) is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time. It keeps a history of every modification to the code in a special kind of database.</p>
+    </div>
+
+    <div class="section">
+        <h2>Why is Version Control Important?</h2>
+        <ul>
+            <li><strong>Collaboration:</strong> Multiple developers can work on the same project simultaneously without overwriting each other's changes.</li>
+            <li><strong>Backups:</strong> If a mistake is made, developers can roll back to any previous version of the code.</li>
+            <li><strong>Branching:</strong> Teams can experiment with new features in isolated environments without affecting the main product.</li>
+            <li><strong>Traceability:</strong> It provides a record of who made what changes and why.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>What is Git?</h2>
+        <p>Git is the most widely used modern version control system in the world today. It is a <strong>Distributed Version Control System (DVCS)</strong>, meaning every developer has a full copy of the project history on their local machine, rather than relying on a single central server.</p>
+    </div>
+
+    <div class="section">
+        <h2>Core Git Concepts</h2>
+        
+        <h3>1. Repository (Repo)</h3>
+        <p>A repository is like a digital project folder. It contains all of the project files and the entire history of changes made to those files.</p>
+
+        <h3>2. Commit</h3>
+        <p>A commit is a "snapshot" of your project at a specific point in time. When you make a commit, you are saving your changes to the project history with a message describing what was done.</p>
+
+        <h3>3. Branching</h3>
+        <p>A branch is an independent line of development. The default branch is usually called <code>main</code> or <code>master</code>. Creating a new branch allows you to work on a specific feature or fix without messing with the "official" version of the project.</p>
+
+        <h3>4. Merging</h3>
+        <p Merging is the process of taking the changes from one branch and integrating them into another. This is how feature branches are eventually added back into the main project.</p>
+    </div>
+
+</body>
+</html>
